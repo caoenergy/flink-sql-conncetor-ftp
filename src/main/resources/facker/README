@@ -1,0 +1,2 @@
+facker.jar 用于制造假数据
+执行命令 java -jar facker.jar [数据条数] [数据落地文件]
