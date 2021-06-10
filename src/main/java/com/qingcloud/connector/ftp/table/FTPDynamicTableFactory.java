@@ -32,7 +32,7 @@ public class FTPDynamicTableFactory implements DynamicTableSourceFactory, Dynami
     public static final ConfigOption<Integer> PORT = ConfigOptions.key("port")
             .intType()
             .noDefaultValue();
-    public static final ConfigOption<String> USERNAME = ConfigOptions.key("username")
+    public static final ConfigOption<String> USERNAME = ConfigOptions.key("user")
             .stringType()
             .defaultValue("ftp");
     public static final ConfigOption<String> PASSWORD = ConfigOptions.key("password")
