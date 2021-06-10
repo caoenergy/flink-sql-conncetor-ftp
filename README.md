@@ -10,7 +10,7 @@
 | ----------------- | ------- | -------------- | :----------------------------------------------------------- | ---- |
 | host              | String | 无             | ip地址                                                       | 是   |
 | port              | Int  | ftp 21 sftp 22 | 端口号                                                       | 否   |
-| username          | String | ftp        | 用户名                                              | 否 |
+| user          | String | ftp        | 用户名                                              | 否 |
 | password          | String | ""       | 密码                                                         | 否  |
 | protocol          | String | ftp            | 数据源类型：ftp 、sftp                                       | 否   |
 | path              | String | 无             | 文件路径 1. 可填写xxx/xxx.txt  2. xxx/xxx1.txt,xxx/xxx2.txt   3.xxx   4.xxx/`[正则表达式]` | 是   |
